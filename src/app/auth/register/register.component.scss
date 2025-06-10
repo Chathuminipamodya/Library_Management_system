@@ -1,3 +1,4 @@
+
 :host{
     display: flex;
     justify-content: space-between;
@@ -22,4 +23,32 @@
 .register-form{
     width: 500px;
     border: 1px solid white;
+}
+mat-card{
+    mat-card-header{
+        display: flex;
+        justify-content: center;
+    }
+    mat-card-title{
+
+        font-size: 2rem;
+        color: aquamarine;
+        
+    }
+    mat-grid-tile{
+        mat-form-field{
+            width: 100%;
+        }
+    }
+    mat-card-actions{
+        button{
+  margin: auto;
+        width: 80%;
+        }
+        h4{
+            margin: 0;
+            padding-right: 1rem;
+        }
+      
+    }
 }

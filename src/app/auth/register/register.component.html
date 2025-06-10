@@ -31,13 +31,43 @@
         <mat-card-title>Create Account</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-        <mat-grid-list cols="2" rowHeight="100px">
-            <mat-grid-tile></mat-grid-tile>
-            <mat-grid-tile></mat-grid-tile>
-            <mat-grid-tile colspan="2"></mat-grid-tile>
-            <mat-grid-tile colspan="2"></mat-grid-tile>
-            <mat-grid-tile></mat-grid-tile>
-            <mat-grid-tile></mat-grid-tile>
+        <mat-grid-list cols="2" rowHeight="65px" gutterSize="10px">
+            <mat-grid-tile>
+                  <mat-form-field color="accent">
+                    <mat-label>First Name</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+               <mat-form-field color="accent">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile colspan="2">
+                <mat-form-field color="accent">
+                    <mat-label>Email</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile colspan="2">
+                <mat-form-field color="accent">
+                    <mat-label>Mobile Number</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field color="accent">
+                    <mat-label>Password</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field color="accent">
+                    <mat-label>Repeat Password</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </mat-grid-tile>
 
         </mat-grid-list>
     </mat-card-content>
