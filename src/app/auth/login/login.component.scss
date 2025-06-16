@@ -1,0 +1,30 @@
+:host{
+    display: block;
+    width: 400px;
+    border: 0px solid white;
+}
+mat-card{
+    mat-card-header{
+        display: flex;
+        justify-content: center;
+
+        mat-card-title{
+            font-size: 2rem;
+            color: aquamarine;
+        }
+    }
+    mat-form-field{
+        padding-top: 1rem;
+        width: 100%;
+    }
+    mat-card-actions{
+        button{
+            margin: auto;
+            width: 80%;
+        }
+        h4{
+            margin: 0;
+            padding-right: 1rem;
+        }
+    }
+}
